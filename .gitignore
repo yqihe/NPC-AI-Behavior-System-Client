@@ -1,3 +1,7 @@
+# =====================
+# Unity
+# =====================
+
 # Unity generated
 [Ll]ibrary/
 [Tt]emp/
@@ -20,17 +24,17 @@
 sysinfo.txt
 crashlytics-buildid.txt
 
-# Builds
+# Build output
 *.apk
 *.aab
 *.unitypackage
 *.app
 
-# IDE
+# =====================
+# IDE — 注意：*.csproj 和 *.sln 是 Unity 生成的项目文件，IDE 需要它们，必须保留
+# =====================
 .idea/
-.vscode/
-*.csproj
-*.sln
+.vs/
 *.suo
 *.tmp
 *.user
@@ -38,17 +42,29 @@ crashlytics-buildid.txt
 *.pidb
 *.booproj
 *.svd
-*.pdb
-*.mdb
 *.opendb
 *.VC.db
+ExportedObj/
 
+# =====================
 # OS
+# =====================
 .DS_Store
 Thumbs.db
 
-# Packages
-/[Pp]ackages/com.unity.*/
-
+# =====================
 # Claude Code
+# =====================
 .claude/settings.json
+
+# =====================
+# env file
+# =====================
+.env.*
+!.env
+!.env.*.example
+
+# =====================
+# Log files
+# =====================
+*.log
