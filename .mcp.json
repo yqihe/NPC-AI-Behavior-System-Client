@@ -1,0 +1,17 @@
+{
+  "mcpServers": {
+    "ai-game-developer": {
+      "headers": {
+        "Authorization": "Bearer 2opD2gdpC6ufusS6NYqh09w7tlHUCLLp9MnFhhJ-Bu8"
+      },
+      "command": "e:/gProject/NPC-AI-Behavior-System/NPC-AI-Behavior-System-Client/Library/mcp-server/win-x64/unity-mcp-server.exe",
+      "args": [
+        "port=25953",
+        "plugin-timeout=10000",
+        "client-transport=stdio",
+        "authorization=none",
+        "token=2opD2gdpC6ufusS6NYqh09w7tlHUCLLp9MnFhhJ-Bu8"
+      ]
+    }
+  }
+}
